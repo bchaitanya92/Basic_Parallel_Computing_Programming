@@ -49,35 +49,35 @@ Basic_Parallel_Computing_Programming/
 
 ---
 
-##  Program List
+## 📋 Program List
 
 | Program | Description |
 |---------|-------------|
-| **Fibonacci_Number** | Parallel implementation of Fibonacci number calculation |
-| **Iteration_Scheduling_Static_Chunking** | Demonstrates static iteration scheduling in parallel loops |
-| **MPI_Broadcast_Op** | Implementation of MPI broadcast operation |
-| **MPI_Deadlock** | Example demonstrating and resolving MPI deadlocks |
-| **MPI_Reduce_AllReduce** | Implementation of reduce and all-reduce operations |
-| **MPI_Scatter_Gather** | Demonstrates scatter and gather operations |
-| **MPI_Send_and_Recev** | Basic point-to-point communication example |
-| **Parallel_Prime_No_Finder** | Parallel prime number finder implementation |
-| **SP_Merge_Sort** | Parallel implementation of merge sort algorithm |
+| **🔢 Fibonacci_Number** | Parallel implementation of Fibonacci number calculation |
+| **⏱️ Iteration_Scheduling_Static_Chunking** | Demonstrates static iteration scheduling in parallel loops |
+| **📡 MPI_Broadcast_Op** | Implementation of MPI broadcast operation |
+| **⚠️ MPI_Deadlock** | Example demonstrating and resolving MPI deadlocks |
+| **🔄 MPI_Reduce_AllReduce** | Implementation of reduce and all-reduce operations |
+| **📊 MPI_Scatter_Gather** | Demonstrates scatter and gather operations |
+| **📨 MPI_Send_and_Recev** | Basic point-to-point communication example |
+| **🔢 Parallel_Prime_No_Finder** | Parallel prime number finder implementation |
+| **🔀 SP_Merge_Sort** | Parallel implementation of merge sort algorithm |
 
 ---
 
-##  Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### 📋 Prerequisites
 - C compiler (GCC for Ubuntu, MSVC or MinGW for Windows)
 - MPI implementation (OpenMPI, MPICH, or MS-MPI for Windows)
 
-### Compilation (Ubuntu/Linux)
+### 🐧 Compilation (Ubuntu/Linux)
 ```bash
 mpicc program_name.c -o program_name
 mpirun -np 4 ./program_name
 ```
 
-### Compilation (Windows)
+🪟 Compilation (Windows)
 ```cmd
 mpicc program_name.c -o program_name.exe
 mpiexec -n 4 program_name.exe
@@ -85,7 +85,7 @@ mpiexec -n 4 program_name.exe
 
 ---
 
-##  Learning Resources
+## 📚 Learning Resources
 
 1. **MPI Documentation**: [mpi-forum.org](https://www.mpi-forum.org/docs/)
 2. **OpenMPI**: [open-mpi.org](https://www.open-mpi.org/)
@@ -93,7 +93,7 @@ mpiexec -n 4 program_name.exe
 
 ---
 
-##  Author
+## 👨‍💻 Author
 
 <p>
   <b>B. Chaitanya</b> <br>
@@ -105,7 +105,7 @@ mpiexec -n 4 program_name.exe
 
 ---
 
-##  License
+## 📜 License
 
 This repository is intended for educational purposes. Feel free to use, modify, and distribute the code as needed.
 
